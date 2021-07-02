@@ -1,18 +1,37 @@
 <?php
 
-$text = 'PHP is a very useful lenguage, año 2021, programación';
+$array =
+    [
+        'Frontend' => 'Javascript',
+        'Backend' => 'PHP',
+        'Mobile' => 'Java'
+    ];
+$array1 =
+    [
+        'Javascript',
+        'PHP',
+        'Java',
+        'C++',
+        'C#'
+    ];
+$array1_keys =
+    [
+        'frontend',
+        'backend',
+        'mobile',
+        'desktop',
+        'videogames'
+    ];
 
-// echo strtolower($text);
-// echo strtoupper($text);
-// echo ucfirst(strtolower($text));
-// echo lcfirst(strtoupper($text));
+$array2 =
+    [
+        'Mobile' => 'red',
+        'blue',
+        'brown',
+        'yellow'
+    ];
 
-// echo strtolower(str_replace(' ', '-', $text));
-// echo strtolower(str_replace('PHP', 'javascript', $text));
 
-$password = 69;
-
-// echo str_pad($password, 8, '#', STR_PAD_BOTH);
-
-// echo strip_tags($text);
-echo mb_strtoupper($text);
+echo '<pre><h3>';
+var_dump(array_combine($array1_keys, $array1));
+echo '</h3></pre>';

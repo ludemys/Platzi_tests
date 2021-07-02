@@ -1,1 +1,1 @@
-{"version":1,"defects":{"ValidateTest::test_email":3},"times":{"ValidateTest::test_email":0.009}}
+{"version":1,"defects":{"ValidateTest::test_email":3,"ValidateTest::testUrl":3,"ValidateTest::testPassword":3},"times":{"ValidateTest::test_email":0.009,"ValidateTest::testEmail":0.023,"ValidateTest::testUrl":0,"ValidateTest::testPassword":0}}
