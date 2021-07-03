@@ -1,0 +1,15 @@
+{
+    "name": "ludemys/testing",
+    "authors": [
+        {
+            "name": "Luciano Della Savia",
+            "email": "lucianodellasavia@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "php vendor/phpunit/phpunit/phpunit --testdox --colors=always"
+    }
+}
