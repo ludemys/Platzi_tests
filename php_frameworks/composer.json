@@ -1,0 +1,21 @@
+{
+    "name": "ludemys/php_frameworks",
+    "description": "Basic project",
+    "authors": [
+        {
+            "name": "Luciano Della Savia",
+            "email": "lucianodellasavia@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    },
+    "require-dev": {
+        "ccampbell/chromephp": "^4.1"
+    }
+}
